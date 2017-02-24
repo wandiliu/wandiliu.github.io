@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <style>
 
+
 body{
-    background-color: white;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 40px;
+  background-color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 40px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 600;
-	line-height: 65px;
-    color: #879295;
-    padding-top: 200px;
+	line-height: 40px;
+  color: #879295;
+  padding-top: 200px;
 }
+
+.namebtn {
+     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+    border: none;
+    padding: none;
+    cursor: pointer;
+    color:#879295;
+    background-color: white;
+}
+
+.namebtn span {
+    transition: 0.6s;
+}
+
+.namebtn:before,
+.namebtn:after {
+ # font-family: "Times New Roman", Times, serif;
+    content: '';
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s,opacity .3s;
+}
+
+.namebtn:before {
+    content: attr(data-hover);
+    -webkit-transform: translate(0,0);
+}
+
+.namebtn:hover span,
+.namebtn:active span {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.namebtn:hover:before,
+.namebtn:active:after {
+    opacity: 1;
+    transform: translate(0,0);
+    transition-delay: .2s;
+}
+
+
 .dropbtn {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 40px;
@@ -36,7 +84,7 @@ body{
     background-color: white;
     position: absolute;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px;
+    box-shadow: 6px 12px 16px 2px #879295;
     z-index: 1;
 }
 .dropdown-content a {
@@ -53,29 +101,60 @@ body{
 	background-color:#F4E7BA;
     color:#44BDB0;
 }
-.dropdown-content a:hover {background-color: #F4E7BA; color: #44BDB0}
+.dropdown-content a:hover {
+  background-color: #F4E7BA; color: #44BDB0
+  }
 .dropdown:hover .dropdown-content {
     display: block;
 }
-p2_1, p2_2{
-	color: #CC8086
-}
+
 div {
     margin-right: 80px;
     margin-left: 60px;
     text-align: left;
 }
-	p5{display: inline-block;}
+p2_1, p2_2{
+  color: #CC8086
+}
+p5{display: inline-block;}
+
+
+footer{
+  margin-right: 0px;
+  margin-left: 0px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+	font-weight: 200;
+  border: none;
+  padding: none;
+  line-height: 20px;
+  display: inline-block;
+}
+.tribute{
+  float: left;  
+}
+.github{
+  float: left;
+}
+.email{
+  float: left;
+  }
+.cv{
+  float: left;
+}
+
 </style>
 </head>
 <body>
-	<div>
-		<p1>Hi, I'm Wandi</p1>
-	</div>
-	<div>
-		<p2>I study <p2_1>Linguistics</p2_1> and <p2_2>Computer Science</p2_2> at UCLA</p2>
-	</div>
-<div>
+	<div id = "intro">
+		<p><p1>Hi, I'm</p1><button class="namebtn" type="button" data-hover="/wǎntɪ́/" data-active="pronounce"><span>Wandi</span></button></p>
+		<p><p2>I study <p2_1>Linguistics</p2_1> and <p2_2>Computer Science</p2_2> at UCLA</p2></p>
 	<div class="dropdown">
   	<button class="dropbtn">Here</button>
  	 <div class="dropdown-content">
@@ -84,10 +163,23 @@ div {
    		 <a href="https://wandiliu.github.io/CS35L">A guide to CS35L</a>
 </div>
 </div>
-
-	<p4>are some things I've made</p4> <p5>(´｡• ᵕ •｡`)</p5>
+	<p4>are some things I've made (´｡• ᵕ •｡`)</p4>
 </div>
 </body>
+
+<footer>
+<div class = "github">
+    vist my github <a href="https://github.com/wandiliu" style="color: #CC8086">github.com/wandiliu</a> 
+</div>
+<div class = "email">
+    reach me at <a href="mailto:lwd726@gmail.com?Subject=Hey%20Wandi!" style="color: #CC8086">lwd726@gmail.com</a>
+</div>
+<div class = "cv">
+    or, read my <a href="https://drive.google.com/file/d/0B6O3jEC6ZmAtZ0tVbnlSMnpWREk/view?usp=sharing" style="color: #CC8086">CV</a>
+</div>
+<div class = "tribute">
+    <img src = "http://fairytaleopolis.weebly.com/uploads/9/7/3/9/9739550/1159810.jpg?1402549030" alt="ponyo" style = "height:18px;">
+    THEME INSPIRED BY <strong>PONYO </strong>
+ </div>
+</footer>
 </html>
-
-

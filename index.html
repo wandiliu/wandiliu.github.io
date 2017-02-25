@@ -10,7 +10,7 @@ body{
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 40px;
   font-style: normal;
-	font-variant: normal;
+  font-variant: normal;
 	font-weight: 600;
 	line-height: 40px;
   color: #879295;
@@ -30,9 +30,6 @@ body{
     background-color: white;
     font-size:0;
     border-bottom: 5px solid #44BDB0;
-
-
-
 }
 
 .namebtn span {
@@ -41,11 +38,11 @@ body{
 
 .namebtn:before,
 .namebtn:after {
- # font-family: "Times New Roman", Times, serif;
     content: '';
     position: absolute;
     opacity: 0;
-    transition: 0.4s,opacity .3s;
+    transition: 0.1s,opacity .3s;
+    
 }
 
 .namebtn:before {
@@ -56,16 +53,18 @@ body{
 .namebtn:hover span,
 .namebtn:active span {
     opacity: 0;
-    transform: scale(0.8);
+    transform: scale(0.8);    
 }
 
 .namebtn:hover:before,
 .namebtn:active:after {
     opacity: 1;
     transform: translate(0,0);
-    transition-delay: .2s;
-}
+    transition-delay: .1s;
+      border-bottom: 5px solid #44BDB0;
 
+
+}
 
 .dropbtn {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -164,7 +163,7 @@ footer{
 </head>
 <body>
 	<div id = "intro">
-		<p><p1>Hi, I'm </p1><button class="namebtn" type="button" data-hover="/wǎntɪ́/" data-active="pronounce"style="font-size:40px;"><span>Wandi</span></button></p>
+		<p><p1>Hi, I'm </p1><button class="namebtn" type="button" data-hover="/ wǎntɪ́ /" data-active="pronounce"style="font-size:40px;"><span>Wandi</span></button></p>
 		<p><p2>I study <p2_1>Linguistics</p2_1> and <p2_2>Computer Science</p2_2> at UCLA</p2></p>
 	<div class="dropdown">
   	<button class="dropbtn">Here</button>
@@ -189,7 +188,7 @@ footer{
     or, read my <a href="https://drive.google.com/file/d/0B6O3jEC6ZmAtZ0tVbnlSMnpWREk/view?usp=sharing" style="color: #CC8086">CV</a>
 </div>
 <div class = "tribute">
-    <img src = "http://fairytaleopolis.weebly.com/uploads/9/7/3/9/9739550/1159810.jpg?1402549030" alt="ponyo" style = "height:18px;">
+    <img src = "http://fairytaleopolis.weebly.com/uploads/9/7/3/9/9739550/1159810.jpg?1402549030" alt="ponyo" style = "height:20px;">
     THEME INSPIRED BY <strong>PONYO </strong>
  </div>
 </footer>

@@ -1,203 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Wandi Liu</title>
-<style>
-header{
-  padding-top: 0px;
-  }
-  
+<html lang="en">
+  <title>Wandi Liu, Product Designer. Work &nbsp; Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <body>
+    <div class="pl5 ml2">
+    <!-- navigation -->
 
-body{
-  background-color: white;
-font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;  font-style: normal;
-  font-variant: normal;
-	font-weight: 800;
-	line-height: 55px;
-  font-size : 2.5em;
-  color: #879295;
- margin-top: 15%;
-margin-bottom: 15%;
-  
-}
+    <nav class="nav-bar-style pv4 mt2 dib">
+      <a class=" v-mid mid-gray link dim mr4" href="index.html" title="Back to Landing Page">
+        <img src="img/w_logo.png" class="dib" height="35rem" alt="Wandi Liu">
+      </a>
+  <a class=" dib mr4" href="about.html" title="About">About</a>
+  <a class=" dib mr4" href="#" title="Work" id="selected">Work</a>
+  <a class="dib" href="#" title="Resources">Resources</a>
+  </nav>
+    <!-- landing -->
+    <div class="mt5 pv4"></div>
+    <div class="fl-l landing-style">
+      <p class="landing-heading w-60">I’m Wandi, a self-taught <strong>designer</strong> with
+                <br/> background in linguistics and computer science.</p>
+      <p class="landing-subhead w-50">I believe good design should be clean, feasible, pleasing and yet practical.
+<br/>This summer, I helped Aquaint rebrand and ignite the usability of its web platform.</p>
+    </div>
+  </div>
+  <img src="img/landing_curves.svg" class="landing-svg" alt="Wandi Liu">
 
-.namebtn {
-font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-  font-size : 2.5em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 600;
-    border: 0px;
-    padding: 0px;
-    cursor: pointer;
-    color:#879295;
-    background-color: white;
-    font-size:0;
-    border-bottom: 5px solid #44BDB0;
-}
-
-.namebtn span {
-    transition: 0.6s;
-}
-
-.namebtn:before,
-.namebtn:after {
-    content: '';
-    position: absolute;
-    opacity: 0;
-    transition: 0.1s,opacity .3s;
-    
-}
-
-.namebtn:before {
-    content: attr(data-hover);
-    -webkit-transform: translate(0,0);
-}
-
-.namebtn:hover span,
-.namebtn:active span {
-    opacity: 0;
-    transform: scale(0.8);    
-}
-
-.namebtn:hover:before,
-.namebtn:active:after {
-    opacity: 1;
-    transform: translate(0,0);
-    transition-delay: .1s;
-      border-bottom: 5px solid #44BDB0;
-
-
-}
-
-.dropbtn {
-font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;	font-style: normal;
-	font-variant: normal;
-  font-size : 1em;
-	font-weight: 600;
-    border: 0px;
-    padding: 0px;
-    cursor: pointer;
-    background-color: white;
-    border-bottom: 5px solid #44BDB0;
-    color: #879295;
-}
-  
-.dropdown {
-	margin: 0px;
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    background-color: white;
-    position: absolute;
-    min-width: 200px;
-    z-index: 1;
-}
-.dropdown-content a {
-	margin: 0;
-font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;	font-size: 20px;
-	font-style: normal;
-	font-variant: normal;
-    color: #44BDB0;
-    text-decoration: none;
-    display: block;
-}
-.dropdown:hover .dropbtn {
-	background-color:#44BDB0;
-    color:white;
-}
-.dropdown-content a:hover {
-  background-color: #44BDB0; color: white;
-  }
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-div {
-    margin-right: 40px;
-    margin-left: 40px;
-    text-align: left;
-}
-
-p2_1, p2_2{
-  color: #CC8086
-}
-p5{
-  display: inline-block;
-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-
-footer{
-  margin-right: 0px;
-  margin-left: 0px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 0.45em;
-	font-weight: 200;
-  border: none;
-  padding: none;
-  line-height: 25px;
-}
-.tribute{
-  display: inline-block;
-  margin-right: 0px;
-}
-.github{
-  display: inline-block;
-
-
-}
-.email{
-  display: inline-block;
-
-
-  }
-.cv{
-  display: inline-block;
-
-}
-
-</style>
-</head>
-<body>
-	<div id = "intro">
-		<p><p1>Hi, I'm </p1><button class="namebtn" type="button" data-hover="/ wǎntɪ́ /" data-active="pronounce"style="font-size:40px;"><span>Wandi</span></button></p>
-		<p><p2>I study <p2_1>Linguistics</p2_1> and <p2_2>Computer Science</p2_2> at UCLA</p2></p>
-<div class="dropdown">
-  	<button class="dropbtn">Here</button>
- 	 <div class="dropdown-content">
-   		 <a href="https://wandiliu.github.io/El/">El (NLP)</a>
-   		 <a href="https://wandiliu.github.io/scarnesdice">Scarne's Dice</a>
-   		 <a href="https://wandiliu.github.io/CS35L">A guide to CS35L</a>
-</div>
-</div>
-	<p4>are some things I've made </p4><p5>(´｡• ᵕ •｡`)</p5>
-</div>
-
-</body>
-<footer>
-<div class = "github">
-    vist my <a href="https://github.com/wandiliu" style="color: #CC8086">github</a> 
-</div>
-<div class = "email">
-    reach me at <a href="mailto:lwd726@gmail.com?Subject=Hey%20Wandi!" style="color: #CC8086">lwd726@gmail.com</a>
-</div>
-<div class = "cv">
-    or, read my <a href="https://drive.google.com/file/d/0B6O3jEC6ZmAtZ0tVbnlSMnpWREk/view?usp=sharing" style="color: #CC8086">CV</a>
-</div>
-<div class = "tribute">
-    <img src = "http://fairytaleopolis.weebly.com/uploads/9/7/3/9/9739550/1159810.jpg?1402549030" alt="ponyo" style = "height:20px;">
-    THEME INSPIRED BY <strong>PONYO </strong>
- </div>
-</footer>
+  </body>
 </html>
-
-

@@ -1,0 +1,68 @@
+/* about.html styling */
+
+.about-text{
+  font-family: Helvetica,Helvetica,Arial,sans-serif;
+  color: #05151F;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  line-height: 1.5rem;
+}
+.about-text a{
+  text-decoration: none;
+  color:inherit;
+  font-weight: normal;
+  white-space: nowrap;
+  transition: 0.2s ease;
+}
+.about-text a:hover{
+  font-size: 1.11rem;
+  background-color: #A6F8CF;
+}
+.about-text #email-action:hover{
+  background-color:#FFE0C6;
+}
+
+/* navigation bar */
+.nav-bar-style{
+  font-family: Helvetica,Helvetica,Arial,sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.nav-bar-style a{
+  text-decoration: none;
+  color:#BDBDBD;
+  transition: 0.2s ease;
+}
+.nav-bar-style a:hover{
+  color: #05151F;
+}
+
+.nav-bar-style #selected{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 2px;
+  color: #05151F;
+}
+
+/* landing page*/
+
+.landing-heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.2rem;
+  white-space: nowrap;
+  font-weight: 100;
+}
+.landing-subhead{
+  font-family: Helvetica,Helvetica,Arial,sans-serif;
+  color: #05151F;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  font-weight: lighter;
+  line-height: 1.5rem;
+  margin-top: -2rem;
+}
+.landing-svg{
+  width:100%;
+  margin-top:-10rem;
+}

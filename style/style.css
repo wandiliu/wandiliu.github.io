@@ -13,13 +13,17 @@
   font-weight: normal;
   white-space: nowrap;
   transition: 0.2s ease;
+  background-color: #D5F8E7;
 }
 .about-text a:hover{
   font-size: 1.11rem;
   background-color: #A6F8CF;
 }
+.about-text #email-action{
+  background-color: #FCEADB;
+}
 .about-text #email-action:hover{
-  background-color:#FFE0C6;
+  background-color:#FFD5B2;
 }
 
 /* navigation bar */
@@ -40,29 +44,52 @@
 
 .nav-bar-style #selected{
   border-bottom-style: solid;
-  border-bottom-width: 1px;
-  padding-bottom: 2px;
+  border-color: #A6F8CF;
+  border-bottom-width: 4px;
   color: #05151F;
 }
 
 /* landing page*/
 
+.landing-greeting{
+  font-family: Helvetica,Helvetica,Arial,sans-serif;
+  color: #05151F;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-bottom: -1.75rem;
+}
+
 .landing-heading{
   font-family: 'Roboto', sans-serif;
   font-size: 2.2rem;
-  white-space: nowrap;
   font-weight: 100;
 }
 .landing-subhead{
   font-family: Helvetica,Helvetica,Arial,sans-serif;
   color: #05151F;
   font-size: 1.1rem;
-  white-space: nowrap;
   font-weight: lighter;
   line-height: 1.5rem;
-  margin-top: -2rem;
+  margin-top: -1.75rem;
 }
 .landing-svg{
   width:100%;
-  margin-top:-10rem;
+  margin-top:-15rem;
+}
+
+.landing-works{
+  float: right;
+  width: 50%;
+  margin-top:-20rem;
+}
+
+/* portfolio */
+
+
+.portfolio-text{
+  text-align: center;
+}
+
+.iframe{
+  border-style: none;
 }

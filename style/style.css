@@ -19,10 +19,10 @@
   font-size: 1.11rem;
   background-color: #A6F8CF;
 }
-.about-text #email-action{
+#email-action{
   background-color: #FCEADB;
 }
-.about-text #email-action:hover{
+#email-action:hover{
   background-color:#FFD5B2;
 }
 
@@ -91,4 +91,33 @@
 
 .iframe{
   border-style: none;
+}
+
+.demo-vid{
+  text-align: center;
+  margin-top: -55rem;
+}
+
+.p5-demo{
+  text-align: center;
+  margin-top: -68rem;
+}
+
+/* footer */
+.footer-text{
+  margin-top: -35rem;
+}
+.footer-text .landing-greeting{
+  font-size: 1.75rem;
+}
+.footer-text .landing-subhead{
+  font-size: 1.25rem;
+}
+
+.footer-text .landing-subhead a{
+  text-decoration: none;
+  color:inherit;
+  font-weight: normal;
+  white-space: nowrap;
+  transition: 0.2s ease;
 }

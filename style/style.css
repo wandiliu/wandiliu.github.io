@@ -83,14 +83,28 @@
   margin-top:-20rem;
 }
 
+@media screen and (max-width: 800px) {
+  .no-medium{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .no-small{
+    display: none;
+  }
+
+}
+
 /* portfolio */
 
 .portfolio-text{
   text-align: center;
 }
 
-.iframe{
-  border-style: none;
+iframe{
+  border: none;
 }
 
 .demo-vid{
@@ -100,7 +114,7 @@
 
 .p5-demo{
   text-align: center;
-  margin-top: -68rem;
+  margin-top: -65rem;
 }
 
 /* footer */

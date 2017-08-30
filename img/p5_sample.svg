@@ -1,83 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-380 7964 1920 1927">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-400 8153 1920 1927">
   <defs>
     <style>
-      .cls-1 {
-        fill: none;
-        stroke: #95989a;
-      }
-
-      .cls-2 {
-        clip-path: url(#clip-path);
-      }
-
-      .cls-3 {
+      .cls-1, .cls-10, .cls-9 {
         fill: #353738;
+      }
+
+      .cls-1, .cls-9 {
         stroke: #353738;
         font-size: 30px;
         font-family: HelveticaNeue-Bold, Helvetica Neue;
       }
 
-      .cls-3, .cls-5 {
+      .cls-1, .cls-3, .cls-9 {
         font-weight: 700;
       }
 
-      .cls-4 {
+      .cls-2 {
         font-size: 42px;
       }
 
-      .cls-4, .cls-7, .cls-8 {
+      .cls-2, .cls-5, .cls-6 {
         font-family: Helvetica-Light, Helvetica;
         font-weight: 300;
       }
 
-      .cls-5 {
+      .cls-3 {
         fill: #a2a1a1;
         font-family: Helvetica-Bold, Helvetica;
         letter-spacing: 0.02em;
       }
 
-      .cls-5, .cls-7, .cls-8 {
+      .cls-3, .cls-5, .cls-6 {
         font-size: 24px;
       }
 
-      .cls-6 {
+      .cls-4 {
         fill: #ebebeb;
       }
 
-      .cls-7 {
+      .cls-5 {
         fill: #292929;
       }
 
-      .cls-9 {
+      .cls-7 {
         fill: #fcb869;
         opacity: 0.479;
       }
 
-      .cls-10 {
-        fill: #ffe5c7;
-        opacity: 0.242;
+      .cls-8 {
+        fill: none;
       }
 
-      .cls-11 {
-        filter: url(#Rectangle_178);
+      .cls-9 {
+        letter-spacing: 0.01em;
       }
     </style>
-    <clipPath id="clip-path">
-      <rect id="Rectangle_187" data-name="Rectangle 187" class="cls-1" width="1920" height="1927" transform="translate(0 6670)"/>
-    </clipPath>
-    <filter id="Rectangle_178" x="-350" y="8740" width="1860" height="1141" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
-  <g id="Mask_Group_21" data-name="Mask Group 21" class="cls-2" transform="translate(-380 1294)">
-    <g id="Group_598" data-name="Group 598">
-      <text id="A_work_in_progress_" data-name="A work in progress…" class="cls-3" transform="translate(89 6745)"><tspan x="0" y="29">A work in progress…</tspan></text>
-      <text id="Mission_to_Speak" data-name="Mission to Speak" class="cls-4" transform="translate(89 6883)"><tspan x="0" y="32">Mission to Speak</tspan></text>
-      <text id="STORY_TOOLS" data-name="STORY
+  <g id="Group_599" data-name="Group 599" transform="translate(-400 1297)">
+    <text id="A_work_in_progress_" data-name="A work in progress…" class="cls-1" transform="translate(89 6931)"><tspan x="0" y="29">A work in progress…</tspan></text>
+    <text id="Mission_to_Speak" data-name="Mission to Speak" class="cls-2" transform="translate(89 7069)"><tspan x="0" y="32">Mission to Speak</tspan></text>
+    <text id="STORY_TOOLS" data-name="STORY
 
 
 
@@ -88,23 +70,25 @@
 
 
 
-TOOLS" class="cls-5" transform="translate(94 6981)"><tspan x="0" y="18">STORY</tspan><tspan x="0" y="47"></tspan><tspan x="0" y="76"></tspan><tspan x="0" y="105"></tspan><tspan x="0" y="134"></tspan><tspan x="0" y="163"></tspan><tspan x="0" y="192"></tspan><tspan x="0" y="221"></tspan><tspan x="0" y="250"></tspan><tspan x="0" y="279"></tspan><tspan x="0" y="308"></tspan><tspan x="0" y="337">TOOLS</tspan></text>
-      <rect id="Rectangle_161" data-name="Rectangle 161" class="cls-6" width="136" height="41" rx="20.5" transform="translate(80 6809)"/>
-      <rect id="Rectangle_162" data-name="Rectangle 162" class="cls-6" width="250" height="41" rx="20.5" transform="translate(519 6809)"/>
-      <text id="UX_Design" data-name="UX Design" class="cls-7" transform="translate(92 6820)"><tspan x="0" y="18">UX Design</tspan></text>
-      <text id="Voice_User_Interface_" data-name="Voice User Interface  " class="cls-7" transform="translate(536 6820)"><tspan x="0" y="18" xml:space="preserve">Voice User Interface  </tspan></text>
-      <text id="For_my_final_project_for_DMA_28:_Interactivity_I_created_a_drawing_interface_designed_for_English_learners_and_autistic_children_using_a_Javascript_speech_recognition_synthesis_library_called_p5.speech._The_application_was_well-received_amongst_my_class" data-name="For my final project for DMA 28: Interactivity, I created a drawing interface designed for English learners and autistic children using a Javascript speech recognition/synthesis library called p5.speech. 
+TOOLS" class="cls-3" transform="translate(94 7167)"><tspan x="0" y="18">STORY</tspan><tspan x="0" y="47"></tspan><tspan x="0" y="76"></tspan><tspan x="0" y="105"></tspan><tspan x="0" y="134"></tspan><tspan x="0" y="163"></tspan><tspan x="0" y="192"></tspan><tspan x="0" y="221"></tspan><tspan x="0" y="250"></tspan><tspan x="0" y="279"></tspan><tspan x="0" y="308"></tspan><tspan x="0" y="337">TOOLS</tspan></text>
+    <rect id="Rectangle_161" data-name="Rectangle 161" class="cls-4" width="136" height="41" rx="20.5" transform="translate(80 6995)"/>
+    <rect id="Rectangle_162" data-name="Rectangle 162" class="cls-4" width="250" height="41" rx="20.5" transform="translate(393 6995)"/>
+    <text id="UX_Design" data-name="UX Design" class="cls-5" transform="translate(92 7006)"><tspan x="0" y="18">UX Design</tspan></text>
+    <text id="Voice_User_Interface_" data-name="Voice User Interface  " class="cls-5" transform="translate(410 7006)"><tspan x="0" y="18" xml:space="preserve">Voice User Interface  </tspan></text>
+    <text id="For_my_final_project_for_DMA_28:_Interactivity_I_created_a_drawing_interface_designed_for_English_learners_and_autistic_children_using_a_Javascript_speech_recognition_synthesis_library_called_p5.speech._The_application_was_well-received_amongst_my_class" data-name="For my final project for DMA 28: Interactivity, I created a drawing interface designed for English learners and autistic children using a Javascript speech recognition/synthesis library called p5.speech. 
 
-The application was well-received amongst my class" class="cls-8" transform="translate(257 6979)"><tspan x="0" y="18">For my final project for DMA 28: Interactivity, I created a drawing interface </tspan><tspan x="0" y="47">designed for English learners and autistic children using a Javascript </tspan><tspan x="0" y="76">speech recognition/synthesis library called p5.speech. </tspan><tspan x="0" y="105"></tspan><tspan x="0" y="134">The application was well-received amongst my classmates, many of whom </tspan><tspan x="0" y="163">are ESL students themselves. I was inspired to continue improving upon </tspan><tspan x="0" y="192">this idea, hopefully creating a product that solves the common struggles </tspan><tspan x="0" y="221">between foreign language learners and those with impaired </tspan><tspan x="0" y="250">communication. </tspan></text>
-      <rect id="Rectangle_163" data-name="Rectangle 163" class="cls-9" width="330" height="19" transform="translate(87 6910)"/>
-      <text id="Adobe_Experience_Design_Sketch_Javascript_p5.js_p5.speech" data-name="Adobe Experience Design, Sketch, Javascript, p5.js, p5.speech" class="cls-8" transform="translate(252 7299)"><tspan x="0" y="18">Adobe Experience Design, Sketch, Javascript, p5.js, p5.speech</tspan></text>
-      <rect id="Rectangle_168" data-name="Rectangle 168" class="cls-6" width="79" height="41" rx="20.5" transform="translate(779 6809)"/>
-      <text id="NLP" class="cls-7" transform="translate(796 6820)"><tspan x="0" y="18">NLP</tspan></text>
-      <rect id="Rectangle_169" data-name="Rectangle 169" class="cls-6" width="278" height="41" rx="20.5" transform="translate(231 6809)"/>
-      <text id="Javascript_Programmer" data-name="Javascript Programmer" class="cls-7" transform="translate(248 6820)"><tspan x="0" y="18">Javascript Programmer</tspan></text>
-      <g class="cls-11" transform="matrix(1, 0, 0, 1, 380, -1294)">
-        <rect id="Rectangle_178-2" data-name="Rectangle 178" class="cls-10" width="1848" height="1129" transform="translate(-344 8743)"/>
-      </g>
+The application was well-received amongst my class" class="cls-6" transform="translate(257 7165)"><tspan x="0" y="18">For my final project for DMA 28: Interactivity, I created a drawing interface </tspan><tspan x="0" y="47">designed for English learners and autistic children using a Javascript </tspan><tspan x="0" y="76">speech recognition/synthesis library called p5.speech. </tspan><tspan x="0" y="105"></tspan><tspan x="0" y="134">The application was well-received amongst my classmates, many of whom </tspan><tspan x="0" y="163">are ESL students themselves. I was inspired to continue improving upon </tspan><tspan x="0" y="192">this idea, hopefully creating a product that solves the common struggles </tspan><tspan x="0" y="221">between foreign language learners and those with impaired </tspan><tspan x="0" y="250">communication. </tspan></text>
+    <rect id="Rectangle_163" data-name="Rectangle 163" class="cls-7" width="330" height="19" transform="translate(87 7096)"/>
+    <text id="Adobe_Experience_Design_Sketch_Javascript_p5.js_p5.speech" data-name="Adobe Experience Design, Sketch, Javascript, p5.js, p5.speech" class="cls-6" transform="translate(252 7485)"><tspan x="0" y="18">Adobe Experience Design, Sketch, Javascript, p5.js, p5.speech</tspan></text>
+    <rect id="Rectangle_168" data-name="Rectangle 168" class="cls-4" width="79" height="41" rx="20.5" transform="translate(653 6995)"/>
+    <text id="NLP" class="cls-5" transform="translate(670 7006)"><tspan x="0" y="18">NLP</tspan></text>
+    <rect id="Rectangle_169" data-name="Rectangle 169" class="cls-4" width="148" height="41" rx="20.5" transform="translate(231 6995)"/>
+    <text id="Javascript" class="cls-5" transform="translate(248 7006)"><tspan x="0" y="18">Javascript</tspan></text>
+    <rect id="Rectangle_187" data-name="Rectangle 187" class="cls-8" width="1920" height="1927" transform="translate(0 6856)"/>
+    <g id="Group_598" data-name="Group 598" transform="translate(0 32)">
+      <text id="Turn_up_your_volume_and_try_it_out_yourself_" data-name="Turn up your volume, and try it out yourself! " class="cls-9" transform="translate(638.5 7572)"><tspan x="4.58" y="29">Turn up your volume, and try it out yourself! </tspan></text>
+      <rect id="Rectangle_190" data-name="Rectangle 190" class="cls-10" width="29" height="33" transform="translate(946 7626)"/>
+      <path id="Path_615" data-name="Path 615" class="cls-10" d="M0,0,34,24.438,0,51Z" transform="translate(986 7652) rotate(90)"/>
     </g>
   </g>
 </svg>
